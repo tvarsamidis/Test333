@@ -2,7 +2,11 @@ package a.b.c;
 
 public class Test {
     public static void main(String[] args) {
-        System.out.println("first 2");
-        System.out.println("second");
+        aaa("first 2");
+        aaa("second");
+    }
+
+    private static void aaa(String second) {
+        System.out.println(second);
     }
 }
